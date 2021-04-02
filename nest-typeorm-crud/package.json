@@ -1,0 +1,25 @@
+{
+  "name": "nestjs-tyoeorm-crud",
+  "description": "typeorm restful crud api for nest.js",
+  "version": "0.0.3",
+  "main": "dist/main.js",
+  "typings": "dist/main.d.ts",
+  "outDir": "dist/",
+  "files": [
+    "dist/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TINGCYGF/nestjs-typeorm-crud"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@nestjs/common": "^7.6.13",
+    "@nestjs/swagger": "^4.7.15",
+    "@nestjs/typeorm": "^7.1.5",
+    "mysql2": "^2.2.5",
+    "swagger-ui-express": "^4.1.6",
+    "lodash": "^4.17.21",
+    "typeorm": "^0.2.31"
+  }
+}
